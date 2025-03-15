@@ -2,7 +2,7 @@ const http = require("http");
 
 let count = 0;
 
-// req : request / 요청
+// req : request / 요청sfasfsdafsdaf
 // res : response / 응답
 const server = http.createServer((req, res) => {
     console.log((count += 1));
